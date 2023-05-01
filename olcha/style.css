@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    height: 3000px;
+}
+
+input {
+    outline: none;
+}
+
+button:active {
+    scale: .9;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background-color: #DA002B;
+}
+
+.header-top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.btn-header-white {
+    padding: 8px 12px;
+    border-radius: 11px;
+    border: none;
+    background-color: white;
+    color: #DA002B;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-header-red {
+    padding: 7px 12px;
+    border-radius: 11px;
+    border: 3px solid white;
+    background-color: #DA002B;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-header-red:hover {
+    opacity: .8;
+    transition: .3s;
+}
+
+.btn-header-white:hover {
+    opacity: .8;
+    transition: .3s;
+}
+
+.p-header-card {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 8px;
+    transition: .3s;
+}
+
+.p-header-card:hover {
+    opacity: .8;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+.right p {
+    margin-top: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-sell {
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: 3px solid white;
+    background-color: #DA002B;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-sell:hover {
+    background-color: white;
+    color: #DA002B;
+}
+
+.phone-number {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 20px;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+.language {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.language-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.language:active {
+    scale: .9;
+}
+
+.language-2:active {
+    scale: .9;
+}
+
+.right hr {
+    border: 0.9px solid #E54D6B;
+}
+
+.right p:hover {
+    opacity: .8;
+}
+
+.header-bottom {
+    margin: 35px 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.header-bottom h1 {
+    color: #DA002B;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.btn-burger {
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: .3s;
+    height: 60px;
+}
+
+.btn-burger:hover {
+    border: 3px solid #DA002B;
+    color: #DA002B;
+}
+
+.btn-burger img {
+    margin: 0 15px 0 0;
+    height: 25px;
+}
+
+.btn-burger p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inp-search {
+    padding: 20px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 15px;
+    width: 1000px;
+    position: relative;
+    font-size: 16px;
+    height: 60px;
+}
+
+.btn-search {
+    translate: -95px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #DA002B;
+    padding: 5px 20px;
+    border-radius: 15px;
+    height: 50px;
+    margin: 5px 0 0 0;
+    transition: .3s;
+    width: 95px;
+}
+
+.btn-search:hover {
+    height: 60px;
+    margin: 0;
+    background-color: black;
+}
+
+.comperison-icon {
+    height: 35px !important;
+    margin-left: 37px;
+}
+
+.all-red-icon p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.all-red-icon:hover {
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid #DA002B;
+    cursor: pointer;
+}
+
+.all-red-icon:hover img {
+    filter: invert(0%) !important;
+}
+
+.btn-change-bg {
+    background-color: #DA002B;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-change-bg:active {
+    scale: .9;
+}
+
+.btn-change-bg img {
+    filter: invert(100%) !important;
+}
+
+.heart-icon {
+    margin-left: 38px;
+    height: 35px !important;
+}
+
+.basket-icon {
+    height: 35px !important;
+    margin-left: 23px;
+}
+
+.sign-in-icon {
+    height: 35px !important;
+    margin-left: 12px;
+}
+
+.comperison {
+    margin-left: -70px !important;
+}
+
+.all-icon {
+    display: flex;
+    gap: 30px;
+}
+
+.left-main {
+    width: 75%;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.main-block {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+swiper-container {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.right-main {
+    width: 20%;
+    border: 3px solid #DA002B;
+    border-radius: 15px;
+    padding: 15px 10px;
+    height: 430px;
+}
+
+.right-main img {
+    width: 50%;
+    height: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sell-of-day {
+    display: flex;
+    margin-left: 1280px;
+    margin-top: 170px;
+}
+
+.left-sell-day p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right-main-bottom p {
+    font-size: 16px;
+    margin-left: -40px;
+    margin-top: 15px;
+}
+
+.sum {
+    margin-left: -153px !important;
+    font-weight: 700;
+    font-size: 18px !important;
+}
+
+.sum-mes {
+    padding: 5px;
+    background-color: #FFD740;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -130px;
+}
+
+.timer {
+    margin-left: 100px;
+}
+
+.time {
+    border: 1px solid #DA002B50;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.discounts {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+    height: 200px;
+}
+
+.discounts div {
+    border-radius: 15px;
+}
+
+.smart-watch {
+    background-image: url(./icon/smart-watch.png);
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+
+.book-discounts {
+    background-image: url(./icon/book.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+
+.monitor {
+    width: 29%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./icon/monitor.png);
+    transition: .3s ease-in-out;
+}
+
+.monitor:hover {
+    background-size: 140%;
+}
+
+.smart-watch:hover {
+    background-size: 120%;
+}
+
+.book-discounts:hover {
+    background-size: 120%;
+}
+
+.header-bottom-pos {
+    background-color: white;
+    box-shadow: 0 0 10px 0px black;
+    height: 100px;
+    width: 200%;
+    margin: 0 auto;
+    margin-left: -100%;
+    z-index: 2;
+    padding-left: 100%;
+    padding-top: 15px;
+    transition: top .3s ease-in-out !important;
+}
+
+
+#back-to-top-btn {
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100%;
+    padding: 2px 0 0 2px;
+    transition: .3s;
+}
+
+#back-to-top-btn:hover {
+    background-color: #543FD3;
+}
+
+#back-to-top-btn img {
+    filter: invert(100%);
+}
