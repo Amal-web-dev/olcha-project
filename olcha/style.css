@@ -511,3 +511,95 @@ swiper-slide img {
 #back-to-top-btn img {
     filter: invert(100%);
 }
+
+.sell-block {
+    margin: 80px 40px;
+    cursor: pointer;
+    height: 500px;
+    width: 300px;
+}
+
+.img-sell-top {
+    display: flex;
+    gap: 30px;
+}
+
+.img-comperison-2 {
+    margin-top: 20px;
+}
+
+.two {
+    margin-left: -40px !important;
+}
+
+.img-left-top {
+    margin-left: 30px;
+}
+
+.phone-text {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.img-sell-top {
+    height: 220px;
+    width: 100%;
+}
+
+.img-sell-bot {
+    margin-left: 40px;
+}
+
+.text-two {
+    margin-bottom: -30px;
+}
+
+.phone-text-3 {
+    margin-bottom: 30px;
+}
+
+.btn-basket {
+    all: unset;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.sell-bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-basket img {
+    height: 50px;
+    width: 55px;
+    padding: 5px;
+}
+
+
+.rassrochka{
+    all: unset;
+    width: 80%;
+    height: 50px;
+    margin-left: 10px;
+    border: 3px solid #DA002B;
+    border-radius: 10px;
+    color: #DA002B;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.rassrochka:hover {
+    background-color: #DA002B;
+    color: white;
+}
+
+.all-block {
+    display: flex;
+}
+
+.three {
+    margin-top: 35px !important;
+}

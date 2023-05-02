@@ -38,6 +38,7 @@ let heartText = document.createElement('p')
 let basketText = document.createElement('p')
 let signInText = document.createElement('p')
 
+
 header.classList.add('header')
 container.classList.add('container')
 headerTop.classList.add('header-top')
@@ -107,10 +108,86 @@ allRedIconTwo.append(heartIcon, heartText)
 allRedIconThree.append(basketIcon, basketText)
 allRedIconFour.append(signInIcon, signInText)
 
+let allBlock = document.querySelector('.all-block')
+
+function phoneShow() {
+  let sellBlock = document.createElement('div')
+  let sellTop = document.createElement('div')
+  let sellBottom = document.createElement('div')
+  let imgSellTop = document.createElement('div')
+  let imgSellBot = document.createElement('div')
+  let imgLeftTop = document.createElement('div')
+  let imgRightTop = document.createElement('div')
+  let rightMainTop = document.createElement('div')
+  let imgPhone = document.createElement('img')
+  let imgLike = document.createElement('img')
+  let imgBasket = document.createElement('img')
+  let imgBasketTwo = document.createElement('img')
+  let phoneText = document.createElement('p')
+  let phoneTextTwo = document.createElement('p')
+  let sum = document.createElement('p')
+  let btnMes = document.createElement('button')
+  let btnBasket = document.createElement('button')
+  let rassrochka = document.createElement('button')
+
+  sellBlock.classList.add('sell-block')
+  sellTop.classList.add('sell-top')
+  sellBottom.classList.add('sell-bottom')
+  imgSellTop.classList.add('img-sell-top')
+  imgSellBot.classList.add('classList.add')
+  imgLeftTop.classList.add('img-left-top')
+  imgRightTop.classList.add('img-right-top')
+  rightMainTop.classList.add('right-main-bottom')
+  imgBasket.classList.add('img-comperison-2')
+  phoneText.classList.add('phone-text')
+  phoneText.classList.add('text-two')
+  phoneTextTwo.classList.add('phone-text')
+  phoneTextTwo.classList.add('phone-text-3')
+  sum.classList.add('sum')
+  sum.classList.add('two')
+  phoneTextTwo.classList.add('three')
+  btnMes.classList.add('sum-mes')
+  btnMes.classList.add('two')
+  btnBasket.classList.add('btn-basket')
+  rassrochka.classList.add('rassrochka')
+
+  phoneText.innerHTML = 'Xiaomi Redmi Note 11'
+  phoneTextTwo.innerHTML = 'Pro 128GB 8 GB Grey'
+  sum.innerHTML = '3 804 000 cym'
+  btnMes.innerHTML = '634 000 cym x 6 mec'
+  rassrochka.innerHTML = 'В рассрочку'
+  imgPhone.src = './icon/phone.jpeg'
+  imgLike.src = './icon/211754_heart_icon.png'
+  imgBasket.src = './icon/7119818_growth_diagram_comparison_graph_information_icon.png'
+  imgBasketTwo.src = './icon/2784211_basket_business_finance_money_icon.png'
 
 
+  imgLike.addEventListener('click', function() {
+    if (imgLike.src.endsWith('211754_heart_icon.png')) {
+      imgLike.src = './icon/pink.png';
+    } else if (imgLike.src.endsWith('pink.png')) {
+      imgLike.src = './icon/211754_heart_icon.png';
+    }
+  });
 
 
+  allBlock.append(sellBlock)
+  sellBlock.append(sellTop, sellBottom)
+  sellTop.append(imgSellTop, imgSellBot)
+  imgSellTop.append(imgLeftTop, imgRightTop)
+  imgSellBot.append(rightMainTop)
+  imgLeftTop.append(imgPhone)
+  imgRightTop.append(imgLike, imgBasket)
+  rightMainTop.append(phoneText, phoneTextTwo, sum, btnMes)
+  btnBasket.append(imgBasketTwo)
+  sellBottom.append(btnBasket, rassrochka)
+
+}
+
+phoneShow()
+phoneShow()
+phoneShow()
+phoneShow()
 
 
 languageSwitcher.addEventListener('click', (event) => {
@@ -121,11 +198,6 @@ languageSwitcher.addEventListener('click', (event) => {
       event.target.classList.add('active');
     }
   });
-
-//   allRedIconOne.onclick = () => {
-//     allRedIconOne.classList.add('btn-change-bg')
-//     comperisonIcon.classList.add('img-invert')
-//   }
 
 
 
